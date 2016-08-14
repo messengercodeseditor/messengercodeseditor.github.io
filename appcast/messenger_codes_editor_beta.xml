@@ -10,7 +10,7 @@
 		<sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.1.html</sparkle:releaseNotesLink>
 		<pubDate>PUBDATE : Thu, 11 Aug 2016 18:04:03 +0200</pubDate>
 		<sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
-		<enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.1.zip" sparkle:shortVersionString="0.1" length="5215644" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCY167Rc8Qtl/IODHgD/9Fh80VjPwIVAJ8CSgfBzYa4jol49PxE2kBa7Qjr"/>
+		<enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.1.zip" sparkle:version="0.1" sparkle:shortVersionString="0.1" length="5215644" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCY167Rc8Qtl/IODHgD/9Fh80VjPwIVAJ8CSgfBzYa4jol49PxE2kBa7Qjr"/>
 		</item>
    </channel>
 </rss>
