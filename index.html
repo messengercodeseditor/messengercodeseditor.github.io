@@ -1,52 +1,84 @@
 <html lang="en"><head>
- 
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Create Messenger Code without Messenger app.">
 <title>Messenger Codes Editor</title>
 <link href="css/bootstrap.css" rel="stylesheet">
- 
+
 <link href="css/main.css" rel="stylesheet">
- 
+
 <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <script src="js/respond.min.js"></script>
-<![endif]-->
- 
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css">
-<style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style></head>
-<body class="signup-h-layout  pace-done" style="">
-<div class="preloader" style="display: none;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
-  <div class="pace-progress-inner"></div>
-</div>
-<div class="pace-activity"></div></div></div>
- 
-<main id="top" class="masthead" role="main">
-<div class="container">
- 
-<div class="logo"> <a href="#"><img src="images/AppIcon.png" alt="appicon-logo"></a> </div>
- 
-<h1>Create Messenger Codes <strong>without </strong> <br>
- <strong>Facebook</strong>Messenger app</h1>
- 
-<div class="row">
-<div class="col-md-12">
-<div class=" multiple-btns text-center has-margin-vertical">
-<a class="btn btn-success btn-lg" href="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.4.zip">DOWNLOAD MAC APP</a>
-<a class="btn btn-primary btn-lg" href="https://www.facebook.com/messengercodeseditor">FACEBOOK NEWS</a>
-<a class="btn btn-warning btn-lg" href="mailto:xhruso00@gmail.com?subject=Messenger Codes Editor Question">GET HELP</a>
-</div>
-</div>
-</div>
-</div>
-</main> 
-<div class="container">
-<section class="row breath">
-<div class="col-md-12 footerlinks">       
-<p>We are in no way affiliated with, authorized, maintained, sponsored or endorsed by Facebook or any of its affiliates or subsidiaries. © 2016</p>
-</div>
-</section>
- 
-</div>
- 
-</body></html>
+  <![endif]-->
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css">
+  <style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style></head>
+  <body class="signup-h-layout  pace-done" style="">
+  	<div class="preloader" style="display: none;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+  		<div class="pace-progress-inner"></div>
+  	</div>
+  	<div class="pace-activity"></div></div></div>
+
+  	<main id="top" class="masthead" role="main">
+  		<div class="container">
+
+  			<div class="logo"> <a href="#"><img src="images/logo2.png" alt="appicon-logo"></a> </div>
+
+  			<h1>Create Messenger Codes <strong>without </strong> <br>
+  				<strong>Facebook</strong> Messenger app</h1>
+
+  				<div class="row">
+  					<div class="col-md-12">
+  						<div class=" multiple-btns text-center has-margin-vertical">
+  							<a class="btn btn-success btn-lg" href="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.4.zip">DOWNLOAD MAC APP</a>
+  							<a class="btn btn-primary btn-lg" href="https://www.facebook.com/messengercodeseditor">FACEBOOK NEWS</a>
+  							<a class="btn btn-warning btn-lg" href="mailto:xhruso00@gmail.com?subject=Messenger Codes Editor Question">GET HELP</a>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="row">
+  					<div class="col-md-6 col-sm-12 col-md-offset-3">
+  						<div class=" multiple-btns text-center has-margin-vertical">
+  							<a class="btn btn-success btn-lg" href="http://eepurl.com/cb6SzX">WINDOWS APP</a>
+  						</div>
+  					</div>
+  				</div>
+  			</main> 
+  			<div class="container">
+  				<section class="row breath">
+  					<div class="col-md-12 footerlinks">       
+  						<p>We are in no way affiliated with, authorized, maintained, sponsored or endorsed by Facebook or any of its affiliates or subsidiaries. © 2016</p>
+  					</div>
+  				</section>
+
+  			</div>
+  			<script src="js/ketchup.all.js"></script>
+  			<script src="js/bootstrap.js"></script>
+  			<script src="js/jquery.js"></script>
+  			<script>
+  				$(document).ready(function() {
+  					$('#subscribeForm').ketchup().submit(function() {
+  						if ($(this).ketchup('isValid')) {
+  							var action = $(this).attr('action');
+  							$.ajax({
+  								url: action,
+  								type: 'POST',
+  								data: {
+  									email: $('#address').val()
+  								},
+  								success: function(data){
+  									$('#result').html(data);
+  								},
+  								error: function() {
+  									$('#result').html('Sorry, an error occurred.');
+  								}
+  							});
+  						}
+  						return false;
+  					});
+  				});
+  			</script>
+  		</body></html>
