@@ -6,24 +6,25 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
       <item>
-      <title>Version 0.3.1</title>
-      <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.3.1.html</sparkle:releaseNotesLink>
-      <pubDate>Wed, 17 Aug 2016 18:18:37 +0200</pubDate>
-      <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
-      <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.3.1.zip" sparkle:version="992" sparkle:shortVersionString="0.3.1" length="5256764" type="application/octet-stream" sparkle:dsaSignature="+zmcFVBqgSMox1PsayZQuTDwOAhRdxt7FZ0h8Xpf8NR8RCawDdm4kJQ=="/>
+            <title>Version 0.3.1</title>
+            <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.3.1.html</sparkle:releaseNotesLink>
+            <pubDate>Wed, 17 Aug 2016 18:18:37 +0200</pubDate>
+            <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.3.1.zip" sparkle:version="992" sparkle:shortVersionString="0.3.1" length="5256764" type="application/octet-stream" sparkle:dsaSignature="+zmcFVBqgSMox1PsayZQuTDwOAhRdxt7FZ0h8Xpf8NR8RCawDdm4kJQ=="/>
       </item>
       <item>
-      <title>Version 0.3</title>
-      <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.3.html</sparkle:releaseNotesLink>
-      <pubDate>Wed, 17 Aug 2016 10:45:58 +0200</pubDate>
-      <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
-      <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.3.zip" sparkle:version="934" sparkle:shortVersionString="0.3" length="5254468" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCH4E+v5OBAN57NXlIaS+IJAmw3IQIVAJdWo/4z/Z/ywAuoq+WP3iECYrb/"/>
+            <title>Version 0.3</title>
+            <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.3.html</sparkle:releaseNotesLink>
+            <pubDate>Wed, 17 Aug 2016 10:45:58 +0200</pubDate>
+            <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.3.zip" sparkle:version="934" sparkle:shortVersionString="0.3" length="5254468" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCH4E+v5OBAN57NXlIaS+IJAmw3IQIVAJdWo/4z/Z/ywAuoq+WP3iECYrb/"/>
       </item>
-      <title>Version 0.2</title>
-      <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.2.html</sparkle:releaseNotesLink>
-      <pubDate>Sun, 14 Aug 2016 10:29:25 +0200</pubDate>
-      <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
-      <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.2.zip" sparkle:version="764" sparkle:shortVersionString="0.2" length="5227833" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDByJQ4pPWUG8PgtMQAYYLGMTFNdAIUAs0eAR2DiXxb+ituEonwSSVWz9Q="/>
+      <item>
+            <title>Version 0.2</title>
+            <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.2.html</sparkle:releaseNotesLink>
+            <pubDate>Sun, 14 Aug 2016 10:29:25 +0200</pubDate>
+            <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.2.zip" sparkle:version="764" sparkle:shortVersionString="0.2" length="5227833" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDByJQ4pPWUG8PgtMQAYYLGMTFNdAIUAs0eAR2DiXxb+ituEonwSSVWz9Q="/>
       </item>
       <item>
 		<title>Version 0.1</title>
@@ -31,6 +32,6 @@
 		<pubDate>Thu, 11 Aug 2016 18:04:03 +0200</pubDate>
 		<sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
 		<enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.1.zip" sparkle:version="457" sparkle:shortVersionString="0.1" length="5215644" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCY167Rc8Qtl/IODHgD/9Fh80VjPwIVAJ8CSgfBzYa4jol49PxE2kBa7Qjr"/>
-		</item>
+	</item>
    </channel>
 </rss>
