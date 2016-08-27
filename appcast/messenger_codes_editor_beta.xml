@@ -5,6 +5,13 @@
       <link>https://messengercodeseditor.github.io/appcast/messenger_codes_editor_beta.xml</link>
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
+            <item>
+            <title>Version 0.5</title>
+            <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.5.html</sparkle:releaseNotesLink>
+            <pubDate>Sat, 27 Aug 2016 11:26:41 +0200</pubDate>
+            <sparkle:minimumSystemVersion>10.10.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://messengercodeseditor.github.io/download/Messenger_Codes_beta-0.5.zip" sparkle:version="1220" sparkle:shortVersionString="0.5" length="5368286" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDBQJJU3OzqqgzoXbHHVEElRm+zjgIUC3fm733q1Tim2u1p5Uh7zaVx/HU="/>
+      </item>
       <item>
             <title>Version 0.4</title>
             <sparkle:releaseNotesLink>https://messengercodeseditor.github.io/appcast/notes_0.4.html</sparkle:releaseNotesLink>
